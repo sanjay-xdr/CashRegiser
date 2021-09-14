@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+*{
+
+    overflow-y:hidden;
+    background-color:#4B5563;
+    color: #D1D5DB;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#hideout{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 50vw;
+    height: 40vh;
+
+}
+
+table, td, th {
+    border: 1px solid black;
+  }
+
+table {
+    width: 100%;
+    height: 70px;
+    border-collapse: collapse;
+  }
+
+  .heading{
+      color: #818CF8;
+      text-align: center;
+  }
+  .description{
+      font-size: 20px;
+    text-align: center;
+  }
+
+  input {
+      
+      width: 150px;
+      padding: 15px;
+  }
+
+  button {
+      border-radius: 12px;
+      cursor: pointer;
+    padding: 10px;
+  }
+
+  input:focus{
+      outline: none;
+  }
+
+.fadein, .fadeout {
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+.fadein {
+    opacity: 1;
+}
+span{
+    font-size: 20px;
+}
+
